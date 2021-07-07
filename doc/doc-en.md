@@ -1,4 +1,6 @@
-### Configure database
+ - [HOME](https://github.com/tigoCaval/crud)
+
+# Configure database
      directory: src/Interfaces/IConnect.php
   The default configuration uses the sqlite database.
   
