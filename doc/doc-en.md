@@ -64,6 +64,36 @@
    users (id,name,age)
  ```
  
+ Creating the User class
+ 
+ ```php
+   use Tigo\Crud\Abstracts\AbsCrud; //import class
+
+   class User extends AbsCrud
+   {
+        /**
+        * Get Table
+        */
+       protected static function getTable()
+       {
+           return "users";
+       }
+         /**
+         * Get Primary key
+         */
+       protected static function getPrimaryKey()
+       {
+           return "id";
+       }
+   }
+ ```
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
