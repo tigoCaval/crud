@@ -113,7 +113,22 @@
       echo "----------<br>";
    }
  ```
- 
+  - **EXAMPLE: Update or edit existing entries**
+ ```php
+     $id = 1;
+     $data = ['name'=>'Hiii','age'=>8];
+     User::update($id,$data);
+ ```
+  - **EXAMPLE: Remove existing entries**
+ ```php
+     $id = 1;
+     User::delete($id);
+ ```
+   - **EXAMPLE: Execute SQL statement**
+ ```php
+     $sql = "select * from users";
+     User::execute($sql);
+ ```
  
  
  
