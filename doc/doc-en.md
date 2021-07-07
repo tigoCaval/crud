@@ -61,7 +61,7 @@
  ```
  Let's assume you have a table with the following assignments
   ```
-  table users (id,name,age)
+   users (id,name,age)
  ```
  
  
