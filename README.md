@@ -16,3 +16,16 @@ Basic operations working with database
  3. PHP >= 7.0; Versions that have been tested:  7.3.23, 8.0.1 e 8.0.3. 
 # Documentation
 [English](https://github.com/tigoCaval/crud/blob/main/doc/doc-en.md) | [Português](https://github.com/tigoCaval/crud/blob/main/doc/doc-pt.md)
+
+ ## Supporting this project
+If you are interested in supporting this project, you can help in many ways. Leave a star :star: or make a donation of any value.
+
+## Sponsor supporting this project
+- []
+## Contributors
+<a href="https://github.com/tigoCaval"><img src="https://avatars.githubusercontent.com/u/19934116?v=4" width="90" height="100" /> </a>
+ 
+ - [List of contributors](https://github.com/tigoCaval/crud/graphs/contributors)
+
+## License
+MIT license. See the archive [License](https://github.com/tigoCaval/crud/blob/main/LICENSE)
