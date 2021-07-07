@@ -92,11 +92,13 @@
  - **EXAMPLE: Add new entries**
  ```php
      $data = ['name'=>'Hi','age'=>1];
-     User::create($data);
+     $user = new User();
+     $user::create($data);
  ```
   - **EXAMPLE: List all entries**
  ```php
-    foreach(User::all() as $item){
+    $user = new User();
+    foreach($user::all() as $item){
       echo "ID: ".$item->id."<br>";
       echo "Name: ".$item->name."<br>";
       echo "Age: ".$item->age."<br>";
@@ -105,8 +107,9 @@
  ```
   - **EXAMPLE: Find entry by id**
  ```php
+    $user = new User();
     $id = 1;
-    foreach(User::find($id) as $item){
+    foreach($user::find($id) as $item){
       echo "ID: ".$item->id."<br>";
       echo "Name: ".$item->name."<br>";
       echo "Age: ".$item->age."<br>";
@@ -115,19 +118,22 @@
  ```
   - **EXAMPLE: Update or edit existing entries**
  ```php
+     $user = new User();
      $id = 1;
      $data = ['name'=>'Hiii','age'=>8];
-     User::update($id,$data);
+     $user::update($id,$data);
  ```
   - **EXAMPLE: Remove existing entries**
  ```php
+     $user = new User();
      $id = 1;
-     User::delete($id);
+     $user::delete($id);
  ```
    - **EXAMPLE: Execute SQL statement**
  ```php
+     $user = new User();
      $sql = "select * from users";
-     User::execute($sql);
+     $user::execute($sql);
  ```
  
  
