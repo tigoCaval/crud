@@ -89,8 +89,20 @@
  ```
  
  Now the "User" class can use all the features of the "AbsCrud" class
- 
- 
+ - **EXAMPLE: Add new entries**
+ ```php
+     $data = ['name'=>'Hi','age'=>1];
+     User::create($data);
+ ```
+  - **EXAMPLE: List all entries**
+ ```php
+    foreach(User::all() as $item){
+      echo "ID: ".$item->id." <br>";
+      echo "Name: ".$item->name." <br>";
+      echo "Age: ".$item->age." <br>";
+      echo "----------<br>";
+   }
+ ```
  
  
  
