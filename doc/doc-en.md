@@ -97,13 +97,22 @@
   - **EXAMPLE: List all entries**
  ```php
     foreach(User::all() as $item){
-      echo "ID: ".$item->id." <br>";
-      echo "Name: ".$item->name." <br>";
-      echo "Age: ".$item->age." <br>";
+      echo "ID: ".$item->id."<br>";
+      echo "Name: ".$item->name."<br>";
+      echo "Age: ".$item->age."<br>";
       echo "----------<br>";
    }
  ```
- 
+  - **EXAMPLE: Find entry by id**
+ ```php
+    $id = 1;
+    foreach(User::find($id) as $item){
+      echo "ID: ".$item->id."<br>";
+      echo "Name: ".$item->name."<br>";
+      echo "Age: ".$item->age."<br>";
+      echo "----------<br>";
+   }
+ ```
  
  
  
