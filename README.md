@@ -15,3 +15,4 @@ Basic operations working with database
  2. Download package: ```composer require tigo/crud```
  3. PHP >= 7.0; Versions that have been tested:  7.3.23, 8.0.1 e 8.0.3. 
 # Documentation
+[English](https://github.com/tigoCaval/crud/blob/main/doc/doc-en.md) | [Português](https://github.com/tigoCaval/crud/blob/main/doc/doc-pt.md)
