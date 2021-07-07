@@ -21,7 +21,7 @@
     const USER = null;
     const PASS = null;
  ```
-# Method
+# Methods
 
 <table style="width:100%">
   <tr>
