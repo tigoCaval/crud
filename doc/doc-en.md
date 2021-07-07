@@ -1,5 +1,5 @@
  - [HOME](https://github.com/tigoCaval/crud)
-
+ 
 # Configure database
      directory: src/Interfaces/IConnect.php
   The default configuration uses the sqlite database.
@@ -21,3 +21,15 @@
     const USER = null;
     const PASS = null;
  ```
+# Method
+
+<table style="width:100%">
+  <tr>
+    <th>Method</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>create(array $data)</td>
+    <td></td>
+  </tr>
+</table>
