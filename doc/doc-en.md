@@ -88,7 +88,7 @@
    }
  ```
  
- 
+ Now the "User" class can use all the features of the "AbsCrud" class
  
  
  
