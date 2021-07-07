@@ -23,7 +23,6 @@ If you are interested in supporting this project, you can help in many ways. Lea
 ## Sponsor supporting this project
 - []
 ## Contributors
-<a href="https://github.com/tigoCaval"><img src="https://avatars.githubusercontent.com/u/19934116?v=4" width="90" height="100" /> </a>
  
  - [List of contributors](https://github.com/tigoCaval/crud/graphs/contributors)
 
