@@ -91,12 +91,14 @@
  Agora a classe "User" pode utilizar todos os recursos da classe "AbsCrud"
  - **EXEMPLO: Adicionar novas entradas**
  ```php
+     $user = new User();
      $data = ['name'=>'Hi','age'=>1];
-     User::create($data);
+     $user::create($data);
  ```
   - **EXEMPLO: Liste todas as entradas**
  ```php
-    foreach(User::all() as $item){
+    $user = new User();
+    foreach($user::all() as $item){
       echo "ID: ".$item->id."<br>";
       echo "Name: ".$item->name."<br>";
       echo "Age: ".$item->age."<br>";
@@ -105,8 +107,9 @@
  ```
   - **EXEMPLO: Encontre entrada por id**
  ```php
+    $user = new User();
     $id = 1;
-    foreach(User::find($id) as $item){
+    foreach($user::find($id) as $item){
       echo "ID: ".$item->id."<br>";
       echo "Name: ".$item->name."<br>";
       echo "Age: ".$item->age."<br>";
@@ -115,17 +118,20 @@
  ```
   - **EXEMPLO: Atualizar ou editar entradas existentes**
  ```php
+     $user = new User();
      $id = 1;
      $data = ['name'=>'Hiii','age'=>8];
-     User::update($id,$data);
+     $user::update($id,$data);
  ```
   - **EXEMPLO: Remover entradas existentes**
  ```php
+     $user = new User();
      $id = 1;
-     User::delete($id);
+     $user::delete($id);
  ```
    - **EXEMPLO: execute a instrução SQL**
  ```php
+     $user = new User();
      $sql = "select * from users";
-     User::execute($sql);
+     $user::execute($sql);
  ```
