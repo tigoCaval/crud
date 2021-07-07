@@ -6,7 +6,7 @@
   
   You can also configure the database of your choice.
   
-  Note: Check the PDO - PHP database extension available.
+  Note: **Check if the PDO - PHP database extension is supported**
     
  ```php
   /*const DATABASE = "mysql:"; 
