@@ -1,0 +1,26 @@
+{
+  "name": "tigo/crud",
+  "description": "Features for working with database. CRUD manipulation data standard",
+  "license": "MIT",
+  "keywords": [
+      "php",
+      "crud",
+      "database",
+      "pdo"
+  ],
+  "authors": [
+      {
+          "name": "Tiago A C Pereira",
+          "email": "tiagocavalcante57@gmail.com"
+      }
+  ],
+  "require": {
+      "php":">= 7.0"
+  },
+  "autoload": {
+      "psr-4": {
+          "Tigo\\Crud\\": "src/"
+      }
+  }
+
+}
