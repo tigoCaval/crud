@@ -14,3 +14,4 @@ Basic operations working with database
  1. Install composer
  2. Download package: ```composer require tigo/crud```
  3. PHP >= 7.0; Versions that have been tested:  7.3.23, 8.0.1 e 8.0.3. 
+# Documentation
