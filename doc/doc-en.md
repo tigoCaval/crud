@@ -78,9 +78,9 @@
        {
            return "users";
        }
-         /**
-         * Get Primary key
-         */
+        /**
+        * Get Primary key
+        */
        protected static function getPrimaryKey()
        {
            return "id";
