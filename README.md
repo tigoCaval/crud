@@ -26,5 +26,8 @@ If you are interested in supporting this project, you can help in many ways. Lea
  
  - [List of contributors](https://github.com/tigoCaval/crud/graphs/contributors)
 
+## Problems
+If you discover any issues, please contact my email or issue tracker and post the details.
+
 ## License
 MIT license. See the archive [License](https://github.com/tigoCaval/crud/blob/main/LICENSE)
