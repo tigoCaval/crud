@@ -30,6 +30,27 @@
   </tr>
   <tr>
     <td>create(array $data)</td>
-    <td></td>
+    <td>Add new entries</td>
   </tr>
+  <tr>
+    <td>all( )</td>
+    <td>List all entries</td>
+  </tr>
+  <tr>
+    <td>find($id)</td>
+    <td>Find entry by id</td>
+  </tr>
+  <tr>
+    <td>update($id, array $data)</td>
+    <td>Update or edit existing entries</td>
+  </tr> 
+  <tr>
+    <td>delete($id)</td>
+    <td>Remove existing entries</td>
+  </tr>
+  <tr>
+    <td>execute($sql)</td>
+    <td>Execute SQL statement</td>
+  </tr>
+
 </table>
