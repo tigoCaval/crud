@@ -52,5 +52,19 @@
     <td>execute($sql)</td>
     <td>Execute SQL statement</td>
   </tr>
-
 </table>
+
+# Starting a project
+ Somewhere in your project, you may need to use autoload
+ ```php
+ include __DIR__ ."/vendor/autoload.php";
+ ```
+ Let's assume you have a table with the following assignments
+  ```
+  table users (id,name,age)
+ ```
+ 
+ 
+ 
+ 
+ 
